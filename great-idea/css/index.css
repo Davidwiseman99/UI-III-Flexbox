@@ -139,5 +139,9 @@ footer{
 }
 /*footer ends here*/
 
-/*services.html starts here/*
+/*services.html starts here*/
 
+* ul {
+	list-style: disc;
+	list-style-position: inside;
+}
