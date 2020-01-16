@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 100%;
+	text-align: center; 
+	}
+
+/* nav bar starts here*/
+.Nav{
+	display:flex;
+	justify-content: space-evenly;
+}
+/* nav bar ends here */
+/* header stuff here*/
+.headerLeft{
+	display: flex;
+	flex-direction: column;
+}
+ header div{
+	display: flex;
+	
+
+	}
+	 header{
+	text-align: left;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	}	 
+.headerRight img{
+	display: flex;
+	margin-left: -55%;
+}
+
+div h1{
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 75px;
+}
+
+/* heading ends here */
+/* top section info starts here */
+.wholeTop{
+	padding-top: 3%;
+	padding-bottom: 5%;
+	border-top: 1px solid black;
+	display: flex;
+}
+/* top section info stops here */
+
+/* bottom info section starts here */
+.wholeBottom{
+	/*border-top: black solid 1px; */
+	display:flex;
+	justify-content: center;
+	width: 85%;
+	margin: 0 8%;
+	border-bottom: 1px solid black;
+	padding-bottom: 3%;
+}
+/* bottom info section ends here */
+/*middle image stuff starts here */
+.middle-img {
+	width: 80%;
+	padding-bottom: 3%;
+}
+.Contact{
+	text-align: left;
+	padding-top: 3%;
+	}
+/*footer starts here*/
+footer{
+	text-align:center;
+}
