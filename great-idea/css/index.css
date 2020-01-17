@@ -145,12 +145,32 @@ ul {
 	list-style: square;
 	list-style-position: inside;
 }
+.servicesdiv{
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: column;
+}
+
+.headerPage2{
+	display: flex;
+	border: 1px solid blue;
+	}
 /* nav bar starts here */
 
 .navPage2{
-	display: block;
-	justify-content: space-evenly;
-	
+	display:flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
+.bodySection{
+	border: solid black 1px;
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	width: 10%;
+	}
+
+
 
 
 
