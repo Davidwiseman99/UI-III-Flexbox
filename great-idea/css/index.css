@@ -140,7 +140,10 @@ footer{
 /*footer ends here*/
 
 /*services.html starts here*/
-
+body{
+	display:flex;
+	flex-direction: column;
+}
 ul {
 	list-style: square;
 	list-style-position: inside;
@@ -158,16 +161,27 @@ ul {
 /* nav bar starts here */
 
 .navPage2{
-	display:flex;
-	flex-direction: column;
+	
 	border: 1px solid red;
 }
-.bodySection{
-	border: solid black 1px;
+
+
+/* this is where the body contents starts */
+.bodyContentServices{
+	/* border: solid black 1px; */
 	flex-direction: row;
 	display: flex;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	width: 10%;
+	padding-top: 2%;
+	}
+	.bodyContentServices img{
+		margin: auto 0;
+
+	}
+.bodySection{
+	width: 40%;
+	border:1px solid black;
 	}
 
 
